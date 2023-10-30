@@ -108,7 +108,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
       <p class="w3-text-grey">Act of sevice,Gift giving,Words of affirmation,quality time,and physical touch</p>
       <hr>
     </div><br>
-
+ 
   </div>
 </div>
 
@@ -119,9 +119,87 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     <p>As a national, Anti-Selos university, we aim for foster comparison and calmness empowering students to embrace strength and shared happiness</p>
     <p><strong>The Founder?</strong> Mr. Jak Roberto<img src="900_675_13_-20230820101327.png" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
     <p>We are proud of our interiors.</p>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: blue;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:blue;
+}
+</style>
+</head>
+<body>
+
+<h2>Collapsibles</h2>
+
+<p>University Map Direction :</p>
+<button type="button" class="collapsible"style="background-color:white;font-size:50px">Open</button>
+<div class="content">
+  <p>Anti Selos University - Manila Campus
+123 Beauty Boulevard
+Makati, Manila, Philippines 12345</p>
+<p>By Car:
+
+From Ninoy Aquino International Airport: Exit the airport and follow the signs to the Skyway. Get on Skyway and take the Makati City exit. Drive along EDSA and turn right onto Ayala Avenue. Continue on Ayala Avenue, then turn left onto Beauty Boulevard. You'll find the university on your right.
+
+From Downtown Manila: Head south on EDSA and take the Ayala Avenue exit. Turn right onto Ayala Avenue, then left onto Beauty Boulevard. The campus will be on your right.
+
+</p>
+<p>By Public Transit:
+
+MRT (Metro Rail Transit): Take the MRT Line 3 to Ayala Station. Exit the station and head east on Ayala Avenue. Turn left onto Beauty Boulevard, and you'll see the campus on your right.
+
+Jeepney: If you're taking a jeepney, look for one heading to Ayala or Makati Avenue. Ask the driver to drop you off near Beauty Boulevard. From there, it's a short walk to the university.</p>
+<p>By Foot or Bike:
+
+If you're in the Makati area, you can easily walk or bike to Anti Selos University. Head to Ayala Avenue and then turn onto Beauty Boulevard.</p>
+</div>
+<button type="button" class="collapsible"style="background-color:white;font-size:50px">Campus facilities</button>
+<div class="content">
+  <p>Upon arriving at Anti Selos University - Manila Campus, you'll have access to a range of modern facilities for makeup artistry, including:
+</p>
+<p>demo labs with the latest calming products.</p>
+<p>OJT'S opportunity ones graduated</p>
+</div> 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
     <img src="schoenecker-center-exterior-rendering.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
      <img src="396602759_845968377217017_8720531089577155423_n.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
-    <h1><b>Opening Hours</b></h1>
+   <p class="w3-text-white">Vision: To create a world where jealousy is as rare as a unicorn sighting, and everyone can embrace their inner cheerleader instead of being a green-eyed monster.</p>
+  <p class="w3-text-white">Mission: We are on a mission to spread laughter, banish jealousy, and promote the art of celebrating others' success. Through our hilarious antics and witty interventions, we aim to remind people that life is too short to be envious, and that a little humor can go a long way in diffusing jealousy.</p>
+   <h1><b>Opening Hours</b></h1>
     
     <div class="w3-row">
       <div class="w3-col s6">
@@ -139,8 +217,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   </div>
 </div>
 
-<!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
 
 <!-- Contact -->
 <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
